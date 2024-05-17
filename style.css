@@ -331,3 +331,22 @@ form .btn2{
     color: #ff004f;
 
 }
+/*-------------css for small screen---------*/
+nav .fa{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(images/Ray.jpg);
+
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+
+    }
+    .header-text h1{
+        font-family: 30px;
+    } 
+
+}
