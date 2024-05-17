@@ -20,7 +20,7 @@ body{
 
 
  }
- nav{
+  nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -332,7 +332,7 @@ form .btn2{
 
 }
 /*-------------css for small screen---------*/
-nav .fa{
+nav .fas{
     display: none;
 }
 @media only screen and (max-width: 600px){
@@ -348,5 +348,23 @@ nav .fa{
     .header-text h1{
         font-family: 30px;
     } 
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
 
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+
+    }
 }
