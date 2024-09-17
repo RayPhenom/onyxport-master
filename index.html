@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onix Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://kit.fontawesome.com/c13e0e32c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,13 +20,13 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fas-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i class="fas-solid fa-bars" onclick="openmenu()"></i>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
             <p>Full Stack Developer And Hacker</p>
-            <h1>Hi im <span>Onix Lumumba</span> <br>Kenyan TechGuy</h1>
+            <h1>I Am <span>Onix Lumumba</span> <br>Kenyan TechGuy</h1>
             </div>
 
         </div>
@@ -68,11 +69,10 @@
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2019-Present</span><br>Barchelors in Information Technology at JKUAT</li>
+                            <li><span>2019-2024</span><br>Barchelors in Information Technology at JKUAT</li>
                             <li><span>2016-2018</span><br>Diploma In Computer Science at Kisumu Polytechnic</li>
-                            <li><span>Full-stack Developer</span><br>Building both android and websites</li>
-                            <li><span>Full-stack Developer</span><br>Building both android and websites</li>
-                            <li><span>Full-stack Developer</span><br>Building both android and websites</li>
+                            <li><span>2011-2014</span><br>Samoei Boys Secondary School</li>
+                            <li><span>Full-stack Developer</span><br>Michinda Boys Primary School</li>
                         </ul>
                     </div>
                 </div>
@@ -253,6 +253,16 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
+      <script>
+        function openmenu() {
+            document.querySelector('.menu').style.display = 'block';
+        }
+        
+        function closemenu() {
+            document.querySelector('.menu').style.display = 'none';
+        }
+        </script>
+        
     
 </body>
 </html>
