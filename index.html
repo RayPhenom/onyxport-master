@@ -120,6 +120,13 @@
                          that i am conversant with emerging technologies hence can check for vulnerabilities within various systems</p>
                          <a href="#">Learn-more</a>
                 </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Full-stack Developer</h2>
+                    <p>By virtues of studyng in udemy and other hacking platforms like try hackme i can say
+                         that i am conversant with emerging technologies hence can check for vulnerabilities within various systems</p>
+                         <a href="#">Learn-more</a>
+                </div>
 
             </div>
         </div>
@@ -204,31 +211,27 @@
 
     </div>
     <script>
-
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
         function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classlist.remove("active-link");
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents){
-                tabcontent.classlist.remove("active-tab");
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
             }
-            event.currentTarget.classlist.add("active-link");
+            event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
-    </script>
-    <script>
-        var sidemenu = document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenu.style.right="0";
-        }
-        function closemenu(){
-            sidemenu.style.right="-200px";
+
+        function openmenu() {
+            document.getElementById("sidemenu").style.right = "0";
         }
 
-
+        function closemenu() {
+            document.getElementById("sidemenu").style.right = "-200px";
+        }
     </script>
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzmOi_s2s_6lPUhBuUThYKqlhu9F9wA8d7wbhsufZIisSgVGm4FVOULa-yOdU9KG3hJtA/exec'
